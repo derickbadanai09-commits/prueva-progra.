@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        ejercicio3();
-        /*String ModeloCoche= "BMWX7";
+       // ejercicio();
+        String ModeloCoche= "BMWX7";
         int plazasCoche= 7;
         double DiaariaCoche=50.2;
         String ModeloMOTO= "Hornet";
@@ -11,8 +11,12 @@ public class Main {
         int plazaPATINETE= 1;
         double DiaariaPATINETE=9.5;
         String ModeloFORGONETA= "Renault";
-        int plazaFORGONETA= 7;
-        double DiaariaFORGONETA=55.4;*/
+        int plazasFORGONETA= 7;
+        double DiaariaFORGONETA=55.4;
+        System.out.println("Modelo:Coche " + ModeloCoche + "/ plazas" +plazasCoche+ " /" + "Diaaria - " + DiaariaCoche+ "€");
+        System.out.println("Modelo:Moto " + ModeloMOTO + "/ plazas" +plazasMoto+ "/" + "Diaaria - " + DiaariaMOTO+ "€");
+        System.out.println("Modelo:Patinete " + ModeloPatinete +"/ plaza" +plazaPATINETE+ " /" + "Diaaria - " + DiaariaPATINETE+ "€");
+        System.out.println("Modelo:Forgoneta " + ModeloFORGONETA + "/ plazas" +plazasFORGONETA+ " /" + "Diaaria - " + DiaariaFORGONETA+ "€");
     }
 
     public static void ejercicio2() {
